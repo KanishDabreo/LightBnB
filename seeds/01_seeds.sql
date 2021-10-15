@@ -3,6 +3,7 @@ VALUES ('Inuyasha Halfdemon', 'inuyasha@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmv
 ('Kagome Higurashi', 'kagome@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 ('Sesshoumaru Demonbrother','sesshoumaru@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 
+-- ADD THUMBNAIL AND COVER PHOTO URLS 
 INSERT INTO properties ( owner_id, title,
   description, thumbnail_photo_url, cover_photo_url, cost_per_night, parking_spaces, number_of_bathrooms, number_of_bedrooms, country, street, city, province, post_code, active)
 VALUES (1, 'Kappei Yamaguchi', 'description', 'thumbnail_photo_url', 'cover_photo_url', 100, 1, 1, 1, 'Japan', 'street', 'Toyko', 'Kanto region', 'L6Z2A1', true);,
